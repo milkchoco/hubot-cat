@@ -1,6 +1,6 @@
 {
   "name": "hubot-cat",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "index.coffee",
   "scripts": {
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yuzu441/hubot-catme.git"
+    "url": "git+https://github.com/yuzu441/hubot-cat.git"
   },
   "author": "yuzu <snowboard.441@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yuzu441/hubot-catme/issues"
+    "url": "https://github.com/yuzu441/hubot-cat/issues"
   },
-  "homepage": "https://github.com/yuzu441/hubot-catme#readme",
+  "homepage": "https://github.com/yuzu441/hubot-cat#readme",
   "dependencies": {
     "hubot": "^2.13.2"
   }
