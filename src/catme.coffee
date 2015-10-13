@@ -8,7 +8,7 @@
 module.exports = (robot) ->
 
   robot.respond(/cat me/i, (msg) ->
-    msg.http('http://cat-me.herokuapp.com/random')
+    msg.http('http://cat-me.herokuapp.com/cat')
       .get() (err, res, body) ->
-        msg.send JSON.parse(body).cat
+        msg.send JSON.parse(body).url
   )
